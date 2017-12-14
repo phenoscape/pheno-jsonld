@@ -42,7 +42,11 @@ A more appealing layout would be a discription of possible character states for 
     of a homologous charactera (AKA "transformation series"; which are handled in the `char` 
     elements in NeXML [though `char` is  a horridly vague name]), and information about scorings
     of organismal entities.
-
+This implies something like:
+  * top level `state` listings
+  * top level `character` description
+  * top level `"trait-scoring"` (or something similar) statements that map observations for organism to `state` and `character` elements as appropriate.
+  
 ## Not all scored entities are, even operationally, taxa
 "OTU" is short for operational taxonomic unit.
 TaxonWorks, Phenoscape, IDigBio, *etc* would benefit from more specific ways of talking about
