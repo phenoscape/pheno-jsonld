@@ -8,6 +8,8 @@ to JSON-LD.
 We had some discussions of "warts" in NeXML that we might want to clean up.
 These are mainly legacies of NEXUS.
 
+# NeXML warts
+
 ## Unhelpful nesting
 Note: here when we say a part of the NeXML spec is a list, we are speaking loosely; this
     is used to refer to elements that are repeatable at the same level in an XML doc.
@@ -48,6 +50,14 @@ TaxonWorks, Phenoscape, IDigBio, *etc* would benefit from more specific ways of 
 These could be specimens, idealized organisms that serve as an exemplar for a taxon but were scored
     from a range of individuals, or taxa.
 
+One could proceed with just calling every scorable organismal unit an `otu` and using `<meta ... />`
+    elements to express the details, but it does seem that listing the common use cases and recognizing
+    them in "first-class" syntax in the format would help interoperability.
+
+## More expressive conventions for discussing the nature of a scoring of a cell
+Some scorings are just observations of a specimen.
+Others are summary stats (e.g. the mean of 10 observations).
+Standardizing the method of expressing this information would help TaxonWorks.
 
 # Links
 This repo is product of the  Computable evolutionary phenotype knowledge workshop 
