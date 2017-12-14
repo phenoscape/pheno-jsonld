@@ -17,7 +17,15 @@ These typs map naturally to a list of objects when the XML is translated to JSON
   * `tree` is  list inside `trees`
 
 This is a legacy of `TAXA` and `TREES` blocks in NEXUS.
+Note that each `otu` and each `tree` has a unique ID, the nesting of a taxon inside the container does not
+    help a user find the fundamental elements.
 
+Given that NeXML has a syntax for expressing a set of things
+    (see https://github.com/nexml/nexml/wiki/NeXML-Manual#Sets_of_things_set ),
+    there is no real need to treat the orginal "block" of TAXA or TREES as
+    anything other than a set of `otu` or `tree` elements using the `set` syntax.
+
+In JSON-LD, the nesting does not matter, given that docs can be framed in a wide variety of ways.
 
 This repo is product of the  Computable evolutionary phenotype knowledge workshop 
 (see https://github.com/phenoscape/KB-DataFest-2017).
