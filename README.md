@@ -34,7 +34,15 @@ For example, in [TaxonWorks](http://taxonworks.org/) a user may want to discuss 
     relates to particular scorings of characteristics of an organism.
 These could be forced into an `UNALIGNED` block in NEXUS, but is not an `unaligned` characters type
     in NeXML.
-    
+
+A more appealing layout would be a discription of possible character states for a trait (already
+    present in the `state` construct of NeXML), a description of the state alphabet 
+    of a homologous charactera (AKA "transformation series"; which are handled in the `char` 
+    elements in NeXML [though `char` is  a horridly vague name]), and information about scorings
+    of organismal entities.
+
+## Not all scored entities are, even operationally, taxa
+"OTU" is short for operational taxonomic unit.
 
 # Links
 This repo is product of the  Computable evolutionary phenotype knowledge workshop 
