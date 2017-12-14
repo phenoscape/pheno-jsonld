@@ -43,6 +43,11 @@ A more appealing layout would be a discription of possible character states for 
 
 ## Not all scored entities are, even operationally, taxa
 "OTU" is short for operational taxonomic unit.
+TaxonWorks, Phenoscape, IDigBio, *etc* would benefit from more specific ways of talking about
+    the scorable entities that make up the row of a character matrix.
+These could be specimens, idealized organisms that serve as an exemplar for a taxon but were scored
+    from a range of individuals, or taxa.
+
 
 # Links
 This repo is product of the  Computable evolutionary phenotype knowledge workshop 
