@@ -46,6 +46,8 @@ This implies something like:
   * top level `state` listings
   * top level `character` description
   * top level `"trait-scoring"` (or something similar) statements that map observations for organism to `state` and `character` elements as appropriate.
+
+rather than nesting all scorings inside a matrix.
   
 ## Not all scored entities are, even operationally, taxa
 "OTU" is short for operational taxonomic unit.
