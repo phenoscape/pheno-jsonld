@@ -30,7 +30,7 @@ In JSON-LD, the nesting does not matter, given that docs can be framed in a wide
 ## Centrality of expressing character data in the context of matrices of homologous characters
 A more generic framework for discussing phenotypic traits would be focused on the mapping of a
     organismal entity to a trait.
-For example, in (TaxonWorks)[http://taxonworks.org/] a user may want to discuss how an image
+For example, in [TaxonWorks](http://taxonworks.org/) a user may want to discuss how an image
     relates to particular scorings of characteristics of an organism.
 These could be forced into an `UNALIGNED` block in NEXUS, but is not an `unaligned` characters type
     in NeXML.
